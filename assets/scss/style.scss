@@ -1,0 +1,20 @@
+@import "./base/_base-dir";
+@import "./components/_component-dir";
+
+.bold-font {
+  font-family: $primary__font--Bold;
+  font-size: 1.6rem;
+  display: block;
+}
+
+.thin-font {
+  font-family: $primary__font--Thin;
+  font-size: 1.6rem;
+  display: block;
+}
+
+.bold-font_1 {
+  font-family: $secondary__font--ExtrBold;
+  font-size: 1.6rem;
+  display: block;
+}
