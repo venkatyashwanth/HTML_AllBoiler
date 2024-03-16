@@ -13,7 +13,44 @@
 </head>
 
 <body>
-    
+    <main>
+        <div class="video-wrapper">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="video-wrapper">
+                                <iframe width="100%" height="100%"
+                                    src="https://www.youtube.com/embed/nfgz7IXxE1M?&showinfo=0&controls=1&autohide=1"
+                                    title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen="" poster="https://i.ytimg.com/vi/nfgz7IXxE1M/hqdefault.jpg">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <!-- Bootstrap -->
+    <script src="./assets/js/core/bootstrap-bundle.min.js"></script>
     <!-- Swiper -->
     <script src="./assets/js/core/swiper-bundle.min.js"></script>
     <!-- External -->
